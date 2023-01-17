@@ -1,0 +1,119 @@
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+header{
+    font-family: 'Roboto Condensed';
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+}
+header img{
+    width:40%;
+}
+/* .navigation{
+    display: flex;
+    transform: translateX(600px);
+    padding: 0px;
+  top: 0;
+  z-index: 10;
+} */
+.navtabday{
+    text-decoration: blink;
+}
+.logoheader{
+    display: flex;
+    transform: translateX(200px);
+    width: 15%;
+}
+.icon{
+    /* display: flex; */
+    letter-spacing:0.5em;
+}
+
+
+
+.hesolo img{
+    width: 25%;
+}
+.carousel-item img{
+    display: flex;
+}
+.sanphammoi h1 a{
+color:rgb(54, 46, 46);
+}
+.sanphammoi h1 a:hover{
+    color:rgb(221, 243, 121);
+    }
+.card-deck card card-title{
+   font-size:5px;
+}
+.sanphambanchay h1 a{
+    color:rgb(54, 46, 46);
+    }
+.sanphambanchay h1 a:hover{
+        color:rgb(221, 243, 121);
+        }
+        .ascard-img-top{
+            width: 100%;
+            height: 70 auto;
+            object-fit: cover;
+        }
+        .a-card {
+            transition: transform 0.2s ease;
+            box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+            border-radius: 0;
+            border: 0;
+            margin-bottom: 1.5em;
+            max-width: 100%;
+            height: auto;
+          }
+          .a-card:hover {
+            transform: scale(1.1);
+          }
+          .container{
+            max-width: 970px;
+        }
+        img-fluid img{
+            max-width: 100%;
+        }
+        /* .a-card {
+            width: 130px;
+            height: 195px;
+            position: relative;
+            display: inline-block;
+            margin: 50px;
+        }
+        .a-card .img-top {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+        .a-card:hover .img-top {
+            display: inline;
+        } */
+        /* .s-card {
+            transition: transform 0.2s ease;
+            box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+            border-radius: 0;
+            border: 0;
+            margin-bottom: 1.5em;
+            max-width: 100%;
+            height: auto;
+          }
+          .s-card:hover {
+            transform: scale(1.1);
+          } */
+          .inner{
+            overflow: hidden;
+          }
+          .inner img{
+            transition: all 1.5s ease;
+          }
+          .inner:hover img{
+            transform: scale(1.2);
+          }
+          /* .btn btn-warning{
+            background-color: #21ddfb;
+            padding: 1rem 4rem
+          } */
